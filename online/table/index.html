@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table class="tb">
+        <tr>
+            <th>標題一</th>
+            <th>標題一</th>
+            <th>標題一</th>
+        </tr>
+        <tr>
+            <td>內容一</td>
+            <td>內容一</td>
+            <td>內容一</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </table>
+    <form action="index.html">
+        <label for="mail">電子郵件：</label>
+        <input id="mail" type="text" name="mail" placeholder="信箱">
+        <label for="person">姓名：</label>
+        <input id="person" type="text" name="person" placeholder="姓名">
+    
+        <h2>性別</h2>
+        <input type="radio" name="sex" value="male">男生
+        <input type="radio" name="sex" value="female">女生
+        
+        <h2>興趣</h2>
+        <input type="checkbox" value="movie" name="hobby">看電影
+        <input type="checkbox" value="music" name="hobby">聽音樂
+        <input type="checkbox" value="comic" name="hobby">看漫畫
+
+        
+        <label for="birth">生日：</label>
+        <select id="birth" name="birth">
+            <option value="1900">1900</option>
+            <option value="1901">1901</option>
+        </select>
+
+        <h2>內容:</h2>
+        <textarea name="content" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="下一步">
+        <input type="button" class="btn" value="點選">
+    </form>
+</body>
+</html>

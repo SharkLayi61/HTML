@@ -1,0 +1,48 @@
+.title{
+    color: blue;
+}
+
+.content{
+    color: black;
+}
+
+@media(max-width:768px){
+    .title{
+        color: red;
+    }
+    .content{
+        color:chocolate;
+        font-size: 30px;
+    }
+}
+
+@media(max-width:375px){
+    .title{
+        color: yellow;
+    }
+    .content{
+        color:green;
+        font-size: 30px;
+    }
+}
+
+.wrap{
+    max-width: 500px;
+    margin: 0 auto;
+    height: 200px;
+    background: #000;
+}
+
+.menu{
+    width: 30%;
+    height: 100px;
+    background: orange;
+    float: left;
+}
+
+.content{
+    width: 70%;
+    height: 100px;
+    background: blue;
+    float: left;
+}
